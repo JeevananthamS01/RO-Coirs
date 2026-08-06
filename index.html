@@ -59,49 +59,65 @@
     <!-- Header Start -->
     <header class="main-header">
       <div class="header-sticky">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar">
           <div class="container">
-            <!-- Logo Start -->
-            <a class="navbar-brand" href="index.html">
-              <img src="/images/home/logo-1.png" alt="Logo" />
-            </a>
-            <!-- Logo End -->
+            <!-- Left -->
+            <div class="header-left">
+              <a class="navbar-brand" href="index.html">
+                <img src="/images/home/logo-1.png" alt="Logo" />
+              </a>
+            </div>
 
-            <!-- Main Menu Start -->
-            <div class="collapse navbar-collapse main-menu">
-              <div class="nav-menu-wrapper">
-                <ul class="navbar-nav mr-auto" id="menu">
-                  <li class="nav-item submenu">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#works">Our Works</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#why-choose-us">Why Choose Us</a>
-                  </li>
-                </ul>
-              </div>
+            <!-- Center -->
+            <div class="header-center">
+              <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
 
-              <!-- Header Btn Start -->
+                <li><a href="#about">About Us</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#works">Our Works</a></li>
+
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+              </ul>
+            </div>
+
+            <!-- Right -->
+            <div class="header-right">
               <div class="header-btn">
                 <a href="#contact" class="btn-default">Contact Us</a>
               </div>
-              <!-- Header Btn End -->
+
+              <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
             </div>
-            <!-- Main Menu End -->
-            <div class="navbar-toggle"></div>
           </div>
         </nav>
-        <div class="responsive-menu"></div>
       </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="menu-close" id="menuClose">&times;</button>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="#about">About Us</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#works">Our Works</a></li>
+
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
 
     <!-- Hero Section Start -->
     <section class="coir-hero-section dark-section parallaxie">
@@ -1163,167 +1179,169 @@
     <!-- Main Footer Start -->
     <footer class="coir-footer bg-section dark-section parallaxie">
       <div class="coir-footer-wrapper">
-      <div class="coir-container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="coir-footer-header">
-              <div class="section-title">
-                <h2 class="text-anime-style-3" data-cursor="-opaque">
-                  Get in touch for premium coir products, quality solutions &
-                  reliable customer support.
-                </h2>
-              </div>
-
-              <div class="coir-contact-circle">
-                <a href="#contact">
-                  <img src="images/home/circleImg.svg" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Left -->
-
-          <div class="col-xl-5">
-            <div class="coir-footer-about">
-              <div class="coir-footer-logo">
-                <img src="images/home/footer-logo.png" alt="RO Coirs" />
-              </div>
-
-              <div class="coir-footer-content">
-                <p>
-                  RO Coirs is a trusted manufacturer and supplier of
-                  premium-quality coco peat, coir fibre, coir discs and
-                  eco-friendly coir products for agriculture, gardening and
-                  landscaping applications.
-                </p>
-              </div>
-
-              <div class="coir-footer-social">
-                <h2>Follow Us</h2>
-
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <i class="fa-brands fa-twitter"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right -->
-
-          <div class="col-xl-7">
-            <div class="coir-footer-links-wrapper">
-              <!-- Quick Links -->
-
-              <div class="coir-footer-links">
-                <h2>Quick Links</h2>
-
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-
-                  <li><a href="#about">About Us</a></li>
-
-                  <li><a href="#services">Products</a></li>
-
-                  <li><a href="#why-choose-us">Why Choose Us</a></li>
-
-                  <li><a href="#contact">Contact Us</a></li>
-                </ul>
-              </div>
-
-              <!-- Products -->
-
-              <div class="coir-footer-links">
-                <h2>Our Products</h2>
-
-                <ul>
-                  <li><a href="#services">Coco Peat Blocks</a></li>
-
-                  <li><a href="#services">Coir Peat</a></li>
-
-                  <li><a href="#services">Coir Fibre</a></li>
-
-                  <li><a href="#services">Coir Disc</a></li>
-                </ul>
-              </div>
-
-              <!-- Contact -->
-
-              <div class="coir-footer-links">
-                <h2>Contact Us</h2>
-
-                <ul>
-                  <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+917892938725"> +91 78929 38725 </a>
-                  </li>
-
-                  <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+919019351499"> +91 90193 51499 </a>
-                  </li>
-
-                  <li>
-                    <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:info@rocoirs.com"> info@rocoirs.com </a>
-                  </li>
-
-                  <li>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span> Tiruppur, Tamil Nadu, India </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bottom -->
-
-          <div class="col-lg-12">
-            <div class="coir-footer-bottom">
-              <div class="footer-bottom">
-                <div class="footer-copy">
-                  Copyright © 2026 RO Coirs. All Rights Reserved.
+        <div class="coir-container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="coir-footer-header">
+                <div class="section-title">
+                  <h2 class="text-anime-style-3" data-cursor="-opaque">
+                    Get in touch for premium coir products, quality solutions &
+                    reliable customer support.
+                  </h2>
                 </div>
 
-                <div class="footer-credit">
-                  Designed & Developed by
-                  <a href="https://dazzletechsolutions.com/" target="_blank">
-                    Dazzle Tech Solutions
+                <div class="coir-contact-circle">
+                  <a href="#contact">
+                    <img src="images/home/circleImg.svg" alt="" />
                   </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left -->
+
+            <div class="col-xl-5">
+              <div class="coir-footer-about">
+                <div class="coir-footer-logo">
+                  <img src="images/home/footer-logo.png" alt="RO Coirs" />
+                </div>
+
+                <div class="coir-footer-content">
+                  <p>
+                    RO Coirs is a trusted manufacturer and supplier of
+                    premium-quality coco peat, coir fibre, coir discs and
+                    eco-friendly coir products for agriculture, gardening and
+                    landscaping applications.
+                  </p>
+                </div>
+
+                <div class="coir-footer-social">
+                  <h2>Follow Us</h2>
+
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right -->
+
+            <div class="col-xl-7">
+              <div class="coir-footer-links-wrapper">
+                <!-- Quick Links -->
+
+                <div class="coir-footer-links">
+                  <h2>Quick Links</h2>
+
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="#about">About Us</a></li>
+
+                    <li><a href="#services">Products</a></li>
+
+                    <li><a href="#why-choose-us">Why Choose Us</a></li>
+
+                    <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+                </div>
+
+                <!-- Products -->
+
+                <div class="coir-footer-links">
+                  <h2>Our Products</h2>
+
+                  <ul>
+                    <li><a href="#services">Coco Peat Blocks</a></li>
+
+                    <li><a href="#services">Coir Peat</a></li>
+
+                    <li><a href="#services">Coir Fibre</a></li>
+
+                    <li><a href="#services">Coir Disc</a></li>
+                  </ul>
+                </div>
+
+                <!-- Contact -->
+
+                <div class="coir-footer-links">
+                  <h2>Contact Us</h2>
+
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      <a href="tel:+917892938725"> +91 78929 38725 </a>
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      <a href="tel:+919019351499"> +91 90193 51499 </a>
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="mailto:info@rocoirs.com"> info@rocoirs.com </a>
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span
+                        >Ro Coir Exports No : 94/9 , ST-11 , KKS Complex ,
+                        Periyanegamam , Pollachi main road, 642120
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom -->
+
+            <div class="col-lg-12">
+              <div class="coir-footer-bottom">
+                <div class="footer-bottom">
+                  <div class="footer-copy">
+                    Copyright © 2026 RO Coirs. All Rights Reserved.
+                  </div>
+
+                  <div class="footer-credit">
+                    Designed & Developed by
+                    <a href="https://dazzletechsolutions.com/" target="_blank">
+                      Dazzle Tech Solutions
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
     </footer>
 
-
-      <!-- WhatsApp Floating Buttons -->
+    <!-- WhatsApp Floating Buttons -->
     <div class="whatsapp-floating">
       <!-- Left WhatsApp -->
       <a
@@ -1368,5 +1386,28 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
     <script src="../../demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
+
+    <script>
+      const menu = document.getElementById("mobileMenu");
+      const openBtn = document.getElementById("menuToggle");
+      const closeBtn = document.getElementById("menuClose");
+
+      openBtn.addEventListener("click", () => {
+        menu.classList.add("active");
+        document.body.classList.add("menu-open");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menu.classList.remove("active");
+        document.body.classList.remove("menu-open");
+      });
+
+      document.querySelectorAll(".mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.remove("active");
+          document.body.classList.remove("menu-open");
+        });
+      });
+    </script>
   </body>
 </html>
