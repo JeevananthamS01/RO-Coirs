@@ -256,7 +256,4 @@
     }, 5000);
   }
 
-  /* Animated Wow Js */
-  new WOW().init();
-
 })(jQuery);
